@@ -1,0 +1,94 @@
+.calculator {
+  width: 330px;
+  height: 800px;
+  background-color: rgb(54, 53, 53);
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 10px;
+  background-color: rgb(54, 53, 53);
+
+}
+
+.display input {
+  width: 100%;
+  height: 40px;
+  font-size: 1.5rem;
+  padding: 5px;
+  margin-bottom: 5px;
+  text-align: right;
+  border: 1px solid rgb(54, 53, 53);
+  border-radius: 5px;
+  background-color: rgb(54, 53, 53);
+  color: white;
+}
+
+.result {
+  font-size: 1.2rem;
+  color: #888;
+  background-color: rgb(54, 53, 53);
+}
+
+.buttons {
+  display: grid;
+  background-color: rgb(54, 53, 53);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.num {
+  width: 100%;
+  padding: 20px;
+  font-size: 1.5rem;
+  background-color: gray;
+  border: 1px solid #ccc;
+  border-radius: 35px;
+  cursor: pointer;
+  color: white;
+}
+
+.operator {
+  width: 100%;
+  padding: 20px;
+  font-size: 1.5rem;
+  background-color: orange;
+  color: white ;
+  border: 1px solid #ccc;
+  border-radius: 35px;
+  cursor: pointer;
+
+}
+.num0 {
+  
+    width: 100%;
+    padding: 20px;
+    font-size: 1.5rem;
+    background-color: gray;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    cursor: pointer;
+    color: white;
+  
+}
+.tools {
+  width: 100%;
+  padding: 20px;
+  font-size: 1.5rem;
+  background-color: rgb(217, 214, 214);
+  border: 1px solid rgb(217, 214, 214);
+  border-radius: 35px;
+  cursor: pointer;
+  color: white;
+
+}
+
+.buttons button:hover {
+  background-color: #ddd;
+}

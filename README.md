@@ -10,7 +10,7 @@ Welcome to the Apple Calculator project! This is a React-based calculator applic
 
 ## Screenshots
 
-![Screenshot of Apple Calculator](path/to/screenshot.png)
+![4](https://github.com/ayoubBarahal/Apple_Calculator/assets/157633404/bf8d53df-109e-413d-8b1c-dfca0eda4ada)
 
 ## Technologies Used
 
